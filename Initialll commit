@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heineken & Hard Seltzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Experiencia Heineken</h1>
+        <nav>
+            <ul>
+                <li><a href="#heineken">Heineken</a></li>
+                <li><a href="#hard-seltzer">Hard Seltzer</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="heineken">
+        <h2>Heineken</h2>
+        <div class="product">
+            <img src="ruta-a-imagen-heineken.jpg" alt="Heineken">
+            <p>Disfruta del sabor icónico de Heineken, una cerveza con más de 150 años de historia.</p>
+        </div>
+    </section>
+
+    <section id="hard-seltzer">
+        <h2>Heineken Hard Seltzer</h2>
+        <div class="product">
+            <img src="ruta-a-imagen-hard-seltzer.jpg" alt="Heineken Hard Seltzer">
+            <p>Prueba las burbujas refrescantes con un toque frutal. Perfecto para cualquier ocasión.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Heineken. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
